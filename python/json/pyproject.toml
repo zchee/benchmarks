@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "python-benchmark-json"
+version = "0.0.1"
+description = ""
+authors = ["Koichi Shiraishi <zchee.io@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+hyperjson = {version = "^0.2.4", allow-prereleases = true}
+ujson = {version = "^1.35", allow-prereleases = true}
+orjson = {version = "^2.5.1", allow-prereleases = true}
+pysimdjson = {version = "1.4.1", allow-prereleases = true}
+
+pytest = {version = "^5.3.5", allow-prereleases = true}
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

@@ -1,0 +1,289 @@
+[[package]]
+category = "main"
+description = "Atomic file writes."
+marker = "sys_platform == \"win32\""
+name = "atomicwrites"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "1.3.0"
+
+[[package]]
+category = "main"
+description = "Classes Without Boilerplate"
+name = "attrs"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "19.3.0"
+
+[package.extras]
+azure-pipelines = ["coverage", "hypothesis", "pympler", "pytest (>=4.3.0)", "six", "zope.interface", "pytest-azurepipelines"]
+dev = ["coverage", "hypothesis", "pympler", "pytest (>=4.3.0)", "six", "zope.interface", "sphinx", "pre-commit"]
+docs = ["sphinx", "zope.interface"]
+tests = ["coverage", "hypothesis", "pympler", "pytest (>=4.3.0)", "six", "zope.interface"]
+
+[[package]]
+category = "main"
+description = "Cross-platform colored terminal text."
+marker = "sys_platform == \"win32\""
+name = "colorama"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+version = "0.4.3"
+
+[[package]]
+category = "main"
+description = "A hyper-fast Python module for reading/writing JSON data"
+name = "hyperjson"
+optional = false
+python-versions = "*"
+version = "0.2.4"
+
+[[package]]
+category = "main"
+description = "Read metadata from Python packages"
+marker = "python_version < \"3.8\""
+name = "importlib-metadata"
+optional = false
+python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
+version = "1.5.0"
+
+[package.dependencies]
+zipp = ">=0.5"
+
+[package.extras]
+docs = ["sphinx", "rst.linker"]
+testing = ["packaging", "importlib-resources"]
+
+[[package]]
+category = "main"
+description = "More routines for operating on iterables, beyond itertools"
+name = "more-itertools"
+optional = false
+python-versions = ">=3.5"
+version = "8.2.0"
+
+[[package]]
+category = "main"
+description = "Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy"
+name = "orjson"
+optional = false
+python-versions = ">=3.6"
+version = "2.5.1"
+
+[[package]]
+category = "main"
+description = "Core utilities for Python packages"
+name = "packaging"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "20.1"
+
+[package.dependencies]
+pyparsing = ">=2.0.2"
+six = "*"
+
+[[package]]
+category = "main"
+description = "plugin and hook calling mechanisms for python"
+name = "pluggy"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "0.13.1"
+
+[package.dependencies]
+[package.dependencies.importlib-metadata]
+python = "<3.8"
+version = ">=0.12"
+
+[package.extras]
+dev = ["pre-commit", "tox"]
+
+[[package]]
+category = "main"
+description = "library with cross-python path, ini-parsing, io, code, log facilities"
+name = "py"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "1.8.1"
+
+[[package]]
+category = "main"
+description = "Python parsing module"
+name = "pyparsing"
+optional = false
+python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
+version = "2.4.6"
+
+[[package]]
+category = "main"
+description = "simdjson bindings for python"
+name = "pysimdjson"
+optional = false
+python-versions = ">=3.4"
+version = "1.4.1"
+
+[package.extras]
+dev = ["cython", "m2r", "sphinx", "ghp-import", "bumpversion"]
+
+[[package]]
+category = "main"
+description = "pytest: simple powerful testing with Python"
+name = "pytest"
+optional = false
+python-versions = ">=3.5"
+version = "5.3.5"
+
+[package.dependencies]
+atomicwrites = ">=1.0"
+attrs = ">=17.4.0"
+colorama = "*"
+more-itertools = ">=4.0.0"
+packaging = "*"
+pluggy = ">=0.12,<1.0"
+py = ">=1.5.0"
+wcwidth = "*"
+
+[package.dependencies.importlib-metadata]
+python = "<3.8"
+version = ">=0.12"
+
+[package.extras]
+checkqa-mypy = ["mypy (v0.761)"]
+testing = ["argcomplete", "hypothesis (>=3.56)", "mock", "nose", "requests", "xmlschema"]
+
+[[package]]
+category = "main"
+description = "Python 2 and 3 compatibility utilities"
+name = "six"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
+version = "1.14.0"
+
+[[package]]
+category = "main"
+description = "Ultra fast JSON encoder and decoder for Python"
+name = "ujson"
+optional = false
+python-versions = "*"
+version = "1.35"
+
+[[package]]
+category = "main"
+description = "Measures number of Terminal column cells of wide-character codes"
+name = "wcwidth"
+optional = false
+python-versions = "*"
+version = "0.1.8"
+
+[[package]]
+category = "main"
+description = "Backport of pathlib-compatible object wrapper for zip files"
+marker = "python_version < \"3.8\""
+name = "zipp"
+optional = false
+python-versions = ">=3.6"
+version = "3.0.0"
+
+[package.extras]
+docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
+testing = ["jaraco.itertools", "func-timeout"]
+
+[metadata]
+content-hash = "b1921ae07b1234ae6163ec2d8e54ba2d11f691a03fc38081cab7328e56cfdca9"
+python-versions = "^3.7"
+
+[metadata.files]
+atomicwrites = [
+    {file = "atomicwrites-1.3.0-py2.py3-none-any.whl", hash = "sha256:03472c30eb2c5d1ba9227e4c2ca66ab8287fbfbbda3888aa93dc2e28fc6811b4"},
+    {file = "atomicwrites-1.3.0.tar.gz", hash = "sha256:75a9445bac02d8d058d5e1fe689654ba5a6556a1dfd8ce6ec55a0ed79866cfa6"},
+]
+attrs = [
+    {file = "attrs-19.3.0-py2.py3-none-any.whl", hash = "sha256:08a96c641c3a74e44eb59afb61a24f2cb9f4d7188748e76ba4bb5edfa3cb7d1c"},
+    {file = "attrs-19.3.0.tar.gz", hash = "sha256:f7b7ce16570fe9965acd6d30101a28f62fb4a7f9e926b3bbc9b61f8b04247e72"},
+]
+colorama = [
+    {file = "colorama-0.4.3-py2.py3-none-any.whl", hash = "sha256:7d73d2a99753107a36ac6b455ee49046802e59d9d076ef8e47b61499fa29afff"},
+    {file = "colorama-0.4.3.tar.gz", hash = "sha256:e96da0d330793e2cb9485e9ddfd918d456036c7149416295932478192f4436a1"},
+]
+hyperjson = [
+    {file = "hyperjson-0.2.4-cp35-cp35m-macosx_10_7_x86_64.whl", hash = "sha256:c222f8f613ad729336e1f01108f242cbd1cf8ef361a3cd2b69a21a470b5adff1"},
+    {file = "hyperjson-0.2.4-cp35-cp35m-manylinux1_x86_64.whl", hash = "sha256:95a411e6460307fd51f51e387522ff1e0387a9dae7d1a4b5cdaa07fce7cd5e6f"},
+    {file = "hyperjson-0.2.4-cp35-none-win_amd64.whl", hash = "sha256:6dff1448fd69378703f50cfdacc8e5de36a9b0da3d8c4016add80dc9b6f8cc3b"},
+    {file = "hyperjson-0.2.4-cp36-cp36m-macosx_10_7_x86_64.whl", hash = "sha256:005dee52ee0646ecc2173199223e73a5a7a85cbfb9b888b0f4bc9e07906dd0ca"},
+    {file = "hyperjson-0.2.4-cp36-cp36m-manylinux1_x86_64.whl", hash = "sha256:3342dd9296035d8f0670f09e246ab36fea1017c4dae73c24a418960ed1eb8beb"},
+    {file = "hyperjson-0.2.4-cp36-none-win_amd64.whl", hash = "sha256:fc70be6d7e0f4cef9e79e965400b8e6167caaa14305016e1226e92b3a6ec52ec"},
+    {file = "hyperjson-0.2.4-cp37-cp37m-macosx_10_7_x86_64.whl", hash = "sha256:31b7287c8973ec92a14ced88f29b075568d884ec63a03a3bd18046ff445e085f"},
+    {file = "hyperjson-0.2.4-cp37-cp37m-manylinux1_x86_64.whl", hash = "sha256:a9b6f33593729c1ba5990c46f8d34e61d63670d15622c228663fe3528e4149ad"},
+    {file = "hyperjson-0.2.4-cp37-none-win_amd64.whl", hash = "sha256:e4ab23d72c3646a3053db049a14b1fdf79521e04d2db98b18dc0dc858de242e2"},
+    {file = "hyperjson-0.2.4-cp38-cp38-macosx_10_7_x86_64.whl", hash = "sha256:59ebe0e4b8f1a97c078cc5a7d214c59eda24acc1e530ae9f26a4148e26cca9e6"},
+    {file = "hyperjson-0.2.4-cp38-cp38-manylinux1_x86_64.whl", hash = "sha256:4451c5b85471a14d5d8ee1764e2622301979bf41da9be95472fb279f0c5db4b6"},
+    {file = "hyperjson-0.2.4-cp38-none-win_amd64.whl", hash = "sha256:cf70d244f0bce0db4a6d0cb2958dcf14283045f17098831f5e8ef34b3d4a67a8"},
+]
+importlib-metadata = [
+    {file = "importlib_metadata-1.5.0-py2.py3-none-any.whl", hash = "sha256:b97607a1a18a5100839aec1dc26a1ea17ee0d93b20b0f008d80a5a050afb200b"},
+    {file = "importlib_metadata-1.5.0.tar.gz", hash = "sha256:06f5b3a99029c7134207dd882428a66992a9de2bef7c2b699b5641f9886c3302"},
+]
+more-itertools = [
+    {file = "more-itertools-8.2.0.tar.gz", hash = "sha256:b1ddb932186d8a6ac451e1d95844b382f55e12686d51ca0c68b6f61f2ab7a507"},
+    {file = "more_itertools-8.2.0-py3-none-any.whl", hash = "sha256:5dd8bcf33e5f9513ffa06d5ad33d78f31e1931ac9a18f33d37e77a180d393a7c"},
+]
+orjson = [
+    {file = "orjson-2.5.1-cp36-cp36m-macosx_10_7_x86_64.whl", hash = "sha256:45e87784efe07b465a60673bacc91407b09f984a420479fe5f6b0fb143f985b2"},
+    {file = "orjson-2.5.1-cp36-cp36m-manylinux1_x86_64.whl", hash = "sha256:60a9f1061fe04b5249aa16a92012899e24ff6422ccde39c9bfeedc41159588f6"},
+    {file = "orjson-2.5.1-cp36-none-win_amd64.whl", hash = "sha256:ef89160b3b1890cd9353a14c8083e927363c7cb7fefabb071ca2a0d7888fd543"},
+    {file = "orjson-2.5.1-cp37-cp37m-macosx_10_7_x86_64.whl", hash = "sha256:a3c3594a587a7de9c1416a85b3cc9383283f7370a670789fbd8077b21c80dc24"},
+    {file = "orjson-2.5.1-cp37-cp37m-manylinux1_x86_64.whl", hash = "sha256:5a19c8f0023c5d04211261915b1116de4de0318e414f8e60819943e6f94d5690"},
+    {file = "orjson-2.5.1-cp37-none-win_amd64.whl", hash = "sha256:63815d36c3a0ad0922990faf01aa1344facf662322c572cd2a9a5ef9ab0f8903"},
+    {file = "orjson-2.5.1-cp38-cp38-macosx_10_7_x86_64.whl", hash = "sha256:a23d88f79534336bfccf75313d7c45e54615753970134cd4fdfcfada09d884ed"},
+    {file = "orjson-2.5.1-cp38-cp38-manylinux1_x86_64.whl", hash = "sha256:afa6b0662116fb8e03604dc4c8eb8d8fc07a0c9c5401b3aa4bb9ed75e9a91fb1"},
+    {file = "orjson-2.5.1-cp38-none-win_amd64.whl", hash = "sha256:01d6e8a5bdd5cd75e8e241ec837073236b557e9f3e8d35ddb4bccb418c61721e"},
+    {file = "orjson-2.5.1-cp39-cp39-manylinux1_x86_64.whl", hash = "sha256:1b4ce958d6e356f2c8eee65e1201d9c04b50a44d398e0febb744c6a7afa05223"},
+    {file = "orjson-2.5.1.tar.gz", hash = "sha256:af588778834e195085b5ab64a7ba1642722ede82e4668c6a9cb57a66458633cf"},
+]
+packaging = [
+    {file = "packaging-20.1-py2.py3-none-any.whl", hash = "sha256:170748228214b70b672c581a3dd610ee51f733018650740e98c7df862a583f73"},
+    {file = "packaging-20.1.tar.gz", hash = "sha256:e665345f9eef0c621aa0bf2f8d78cf6d21904eef16a93f020240b704a57f1334"},
+]
+pluggy = [
+    {file = "pluggy-0.13.1-py2.py3-none-any.whl", hash = "sha256:966c145cd83c96502c3c3868f50408687b38434af77734af1e9ca461a4081d2d"},
+    {file = "pluggy-0.13.1.tar.gz", hash = "sha256:15b2acde666561e1298d71b523007ed7364de07029219b604cf808bfa1c765b0"},
+]
+py = [
+    {file = "py-1.8.1-py2.py3-none-any.whl", hash = "sha256:c20fdd83a5dbc0af9efd622bee9a5564e278f6380fffcacc43ba6f43db2813b0"},
+    {file = "py-1.8.1.tar.gz", hash = "sha256:5e27081401262157467ad6e7f851b7aa402c5852dbcb3dae06768434de5752aa"},
+]
+pyparsing = [
+    {file = "pyparsing-2.4.6-py2.py3-none-any.whl", hash = "sha256:c342dccb5250c08d45fd6f8b4a559613ca603b57498511740e65cd11a2e7dcec"},
+    {file = "pyparsing-2.4.6.tar.gz", hash = "sha256:4c830582a84fb022400b85429791bc551f1f4871c33f23e44f353119e92f969f"},
+]
+pysimdjson = [
+    {file = "pysimdjson-1.4.1-cp34-cp34m-manylinux1_x86_64.whl", hash = "sha256:8a75580b2d6d2339a93c1337eae2ded99c3bcd890d68e77f5ffb3572e8a63d56"},
+    {file = "pysimdjson-1.4.1-cp35-cp35m-manylinux1_x86_64.whl", hash = "sha256:38b3f2407d35019c268e60244f275a22b71c6ae1a1aa8635b25863e5bc0a4bac"},
+    {file = "pysimdjson-1.4.1-cp36-cp36m-manylinux1_x86_64.whl", hash = "sha256:20f2bd413338b13f354c81531a93338c7b48551aba54140b1f84a9522b67d88d"},
+    {file = "pysimdjson-1.4.1-cp36-cp36m-win_amd64.whl", hash = "sha256:bcdaca430981864b716c62629e9e26e84a9acd8fc287833648e9d727d310d5d9"},
+    {file = "pysimdjson-1.4.1-cp37-cp37m-macosx_10_12_x86_64.whl", hash = "sha256:51038856d00c2cc2ceb5a8a43eb4c76bf77ac91fb2c3d3a53efaece4a49859bb"},
+    {file = "pysimdjson-1.4.1-cp37-cp37m-manylinux1_x86_64.whl", hash = "sha256:f002ad4f1c81e369cb493426696c1f61a73b7c8c1be93e97685e89479eac03a4"},
+    {file = "pysimdjson-1.4.1-cp37-cp37m-win_amd64.whl", hash = "sha256:2b28937f680b386d6cb5789d34c91943e4d5ed1487fd3bbaada454c7c2a0eecf"},
+    {file = "pysimdjson-1.4.1-py3.6-win-amd64.egg", hash = "sha256:8047c0d727d9be0910fb572245ede614e19c3b84eb7956792647e741bf6141d5"},
+    {file = "pysimdjson-1.4.1-py3.7-win-amd64.egg", hash = "sha256:6fc60daf92a2c03298551320965fe94f158f325e3fac1b6653acde7a5ef68c46"},
+    {file = "pysimdjson-1.4.1.tar.gz", hash = "sha256:d96b8c857c6009378fbd7f90bddfd5183b3e5426fa305cae9f473f470e3ad12d"},
+]
+pytest = [
+    {file = "pytest-5.3.5-py3-none-any.whl", hash = "sha256:ff615c761e25eb25df19edddc0b970302d2a9091fbce0e7213298d85fb61fef6"},
+    {file = "pytest-5.3.5.tar.gz", hash = "sha256:0d5fe9189a148acc3c3eb2ac8e1ac0742cb7618c084f3d228baaec0c254b318d"},
+]
+six = [
+    {file = "six-1.14.0-py2.py3-none-any.whl", hash = "sha256:8f3cd2e254d8f793e7f3d6d9df77b92252b52637291d0f0da013c76ea2724b6c"},
+    {file = "six-1.14.0.tar.gz", hash = "sha256:236bdbdce46e6e6a3d61a337c0f8b763ca1e8717c03b369e87a7ec7ce1319c0a"},
+]
+ujson = [
+    {file = "ujson-1.35.tar.gz", hash = "sha256:f66073e5506e91d204ab0c614a148d5aa938bdbf104751be66f8ad7a222f5f86"},
+]
+wcwidth = [
+    {file = "wcwidth-0.1.8-py2.py3-none-any.whl", hash = "sha256:8fd29383f539be45b20bd4df0dc29c20ba48654a41e661925e612311e9f3c603"},
+    {file = "wcwidth-0.1.8.tar.gz", hash = "sha256:f28b3e8a6483e5d49e7f8949ac1a78314e740333ae305b4ba5defd3e74fb37a8"},
+]
+zipp = [
+    {file = "zipp-3.0.0-py3-none-any.whl", hash = "sha256:12248a63bbdf7548f89cb4c7cda4681e537031eda29c02ea29674bc6854460c2"},
+    {file = "zipp-3.0.0.tar.gz", hash = "sha256:7c0f8e91abc0dc07a5068f315c52cb30c66bfbc581e5b50704c8a2f6ebae794a"},
+]
